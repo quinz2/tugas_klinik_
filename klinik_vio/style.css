@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d37ca8;
+  color: white;
+  padding: 12px;
+}
+
+header h1 {
+  header h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+}
+
+
+nav {
+  margin-top: 8px;
+}
+
+nav button {
+  background: rgb(218, 139, 168);
+  color: #15171a;
+  border: none;
+  margin-right: 6px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background: #d8dadb;
+}
+
+main {
+  padding: 16px;
+}
+
+.card {
+  background-color: rgb(206, 156, 179);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  margin-bottom: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.form-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.form-row input, .form-row select {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2b6cb0;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.small {
+  font-size: 13px;
+  color: #e9e5e5;
+}
+/* === Tambahan gaya navigasi biar tombolnya kotak dan rapi === */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+nav button {
+  background: rgb(238, 188, 207);
+  color: #15171a;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  width: 150px; /* biar ukurannya seragam */
+  height: 70px; /* jadi keliatan kotak */
+}
+
+nav button:hover {
+  background: #e6a7c0;
+  transform: translateY(-3px);
+}
